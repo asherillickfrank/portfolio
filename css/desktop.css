@@ -118,6 +118,7 @@ ul nav ul li{
 	flex-direction: column;
 	padding: 20px;
 	background-color: black;
+	align-items: center;
 }
 .toplineofpost{
 	background-color: lightgrey;
