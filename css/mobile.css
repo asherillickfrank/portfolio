@@ -96,6 +96,7 @@ ul nav ul li{
 	padding-left: 20px;
 	margin: 5px;
 	color: white;
+	align-content: center;
 }
 .navtext > a {
 	display: none;
