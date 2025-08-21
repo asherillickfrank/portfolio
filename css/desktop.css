@@ -1,6 +1,6 @@
 body{
 	font-family: sans-serif;
-	background-color: black;
+	background-color: white;
 }
 
 #toptitle{
@@ -16,9 +16,9 @@ ul nav{
 	flex-direction: column;
 	height: 80vh;
 	position: fixed;
-	background-color: black;
+	background-color: white;
 	border-radius: 10px;
-	color: white;
+	color: black;
 }
 ul nav ul li{
 	list-style: none;
@@ -47,31 +47,35 @@ ul nav ul li{
 }
 .location2{
 	list-style: none;
-	border: solid 1px black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width:  100%;
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 #right{
 	display: flex;
 	border: none;
 	width: 20%;
-	background-color: rgba(0, 0, 0, 1);
+	background-color: white;
 }
 .navigation{
+	font-family: monospace;
+	font-weight: bold;
 	display: flex;
 	padding-left: 5vw;
-	padding-top: 5vh;
+	padding-top: 2.5vh;
+	padding-bottom: 2.5vh;
+}
+.navigation:hover{
+	background-color: darkgrey;
 }
 .lefticon{
 	width: 50px;
 	height: 50px;
 	border-radius: 25px;
 	overflow: hidden;
-	background-color: white;
 }
 .lefticon > img {
 	width: 100%;
@@ -88,7 +92,7 @@ ul nav ul li{
 	height: 50px;
 	border-radius: 25px;
 	overflow: hidden;
-	background-color: black;
+	background-color: white;
 }
 .lefticon_twitter > img {
 	width: 100%;
@@ -101,10 +105,11 @@ ul nav ul li{
 	object-fit: contain;
 }
 .navtext{
+	font-weight: bold;
 	font-size: 20px;
 	padding-left: 20px;
 	margin: 5px;
-	color: white;
+	color: black;
 	align-content: center;
 }
 .post{
@@ -118,7 +123,7 @@ ul nav ul li{
 	list-style: none;
 	flex-direction: column;
 	padding: 20px;
-	background-color: black;
+	background-color: white;
 	align-items: center;
 }
 .toplineofpost{
@@ -130,7 +135,6 @@ ul nav ul li{
 	border-radius: 10px;
 }
 .profilepic{
-	border: solid 1px black;
 	width: 50px;
 	height: 50px;
 	margin: 10px;
@@ -180,7 +184,7 @@ ul nav ul li{
 	padding-left: 10px;
 }
 .links{
-	color:white;
+	color:black;
 	list-style: none;
 }
 .linkpromo{
@@ -221,10 +225,10 @@ a:hover{
 	color: teal;
 }
 .navigation .navtext a:visited, .navigation .navtext a:link {
-	color: white;
+	color: black;
 }
 .navtext a{
-	color: white;
+	color: black;
 }
 .email{
 	color: black;
@@ -239,4 +243,15 @@ display: none;
 }
 .rightnav{
 display: none;
+}
+#bigtitle{
+	font-family: monospace;
+}
+
+.date {
+	font-family: monospace;
+	font-weight: bold;
+}
+.post_small{
+	display: none;
 }
