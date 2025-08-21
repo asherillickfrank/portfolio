@@ -250,3 +250,6 @@ a:visited, a:link {
 .post_text{
 	display: none;
 }
+.post_medium{
+	display: none;
+}

@@ -252,6 +252,9 @@ a:hover{
 	font-family: monospace;
 	font-weight: bold;
 }
+.post_text{
+	display: none;
+}
 .post_small{
 	display: none;
 }
